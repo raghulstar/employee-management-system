@@ -57,7 +57,7 @@ Setup and Installation
 Clone the repository:
 
 bash
-git clone https://github.com/employee-management-system.git
+git clone https://github.com/raghulstar/employee-management-system.git
 cd employee-management-system
 Install Backend Dependencies:
 
