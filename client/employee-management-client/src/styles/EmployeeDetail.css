@@ -1,0 +1,95 @@
+/* src/styles/EmployeeDetail.css */
+
+.employee-detail {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-detail h1 {
+    color: #333;
+}
+
+.employee-detail p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.employee-detail .map-container {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Tab container styles */
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tabs button {
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tabs button.active {
+    background-color: #ddd;
+    border-bottom: 1px solid #fff;
+}
+
+/* Tab content styles */
+.details-tab,
+.map-tab,
+.audit-tab {
+    display: none;
+}
+
+.details-tab.active,
+.map-tab.active,
+.audit-tab.active {
+    display: block;
+}
+
+/* Audit trail styles */
+.audit-tab {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.audit-tab h2 {
+    color: #333;
+}
+
+.audit-tab ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.audit-tab li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.audit-tab li p {
+    margin: 5px 0;
+}
+
+.audit-tab pre {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}

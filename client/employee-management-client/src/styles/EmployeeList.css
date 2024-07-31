@@ -1,0 +1,53 @@
+/* src/styles/EmployeeList.css */
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.employee-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.employee-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.employee-card p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.employee-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* New styles for Dashboard button */
+.dashboard-button-container {
+    display: flex;
+    justify-content: center; /* Center the button */
+    margin-top: 20px;
+}
+
+.dashboard-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* Blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
