@@ -81,7 +81,7 @@ function EmployeeDetail() {
           {activeTab === 'map' && (
             <div className="map-tab active">
               <div className="map-container">
-                <LoadScript googleMapsApiKey="AIzaSyB7SgAwcu4IuVX7t9B6zrAfzmibfxkTgxI">
+                <LoadScript googleMapsApiKey="Your Google Map API Key">
                   <GoogleMap
                     mapContainerStyle={containerStyle}
                     center={center}
